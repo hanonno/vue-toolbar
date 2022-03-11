@@ -3,11 +3,14 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue';
 import Toolbar from './components/Toolbar.vue';
+import ToolbarItem from './components/ToolbarItem.vue';
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <Toolbar>
+    <ToolbarItem text="Export" />
+    <ToolbarItem text="Add user" />
+  </Toolbar>
 </template>
 
 <style>
