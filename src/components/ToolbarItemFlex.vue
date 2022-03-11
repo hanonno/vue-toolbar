@@ -12,8 +12,9 @@ defineProps({
 
 <style scoped>
 .toolbar-item {
-  background-color: green;
+  background-color: purple;
   border: 1px solid black;
-  padding: 4px;
+
+  flex-grow: 1;
 }
 </style>

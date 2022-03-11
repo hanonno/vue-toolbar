@@ -4,12 +4,15 @@
 import HelloWorld from './components/HelloWorld.vue';
 import Toolbar from './components/Toolbar.vue';
 import ToolbarItem from './components/ToolbarItem.vue';
+import ToolbarItemFlex from './components/ToolbarItemFlex.vue';
 </script>
 
 <template>
   <Toolbar>
     <ToolbarItem text="Export" />
+    <ToolbarItemFlex />
     <ToolbarItem text="Add user" />
+    <ToolbarItem text="Add partner" />
   </Toolbar>
 </template>
 

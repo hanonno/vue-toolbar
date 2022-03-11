@@ -1,5 +1,10 @@
 <script setup>
 import { ref } from 'vue';
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  console.log('mounted in the composition api!');
+});
 
 defineProps({
   msg: String,
@@ -16,5 +21,6 @@ const count = ref(0);
 .toolbar {
   background-color: red;
   padding: 8px;
+  display: flex;
 }
 </style>
